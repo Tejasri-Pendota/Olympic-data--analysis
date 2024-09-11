@@ -1,6 +1,7 @@
 
 
 **Olympics Data Analysis**
+
 This project involves the analysis of historical data from the Olympic Games, providing insights into country-wise and athlete-wise performances across different editions of the event. The analysis includes various statistics and visualizations to help understand trends over time.
 
 **Features**
