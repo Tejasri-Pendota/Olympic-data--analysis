@@ -10,8 +10,8 @@ import seaborn as sns
 
 import plotly.figure_factory as ff
 
-df = pd.read_csv('https://github.com/Tejasri-Pendota/Olympic-data--analysis/blob/master/data/athlete_events.csv.zip')
-region_df = pd.read_csv('https://github.com/Tejasri-Pendota/Olympic-data--analysis/blob/master/data/noc_regions.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/Tejasri-Pendota/Olympic-data--analysis/blob/master/data/athlete_events.csv.zip')
+region_df = pd.read_csv('https://raw.githubusercontent.com/Tejasri-Pendota/Olympic-data--analysis/blob/master/data/noc_regions.csv')
 
 
 df = preprocessor.preprocess( df , region_df)
